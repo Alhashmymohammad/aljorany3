@@ -6,7 +6,6 @@ workflows:
       vars:
         NODE_ENV: "production"
       node: stable
-      android: stable
     scripts:
       - name: Install dependencies
         script: |
