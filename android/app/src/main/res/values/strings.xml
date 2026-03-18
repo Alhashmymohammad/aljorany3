@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Aljorany</string>
+    <string name="title_activity_main">Aljorany</string>
+    <string name="package_name">com.aljorany.app</string>
+    <string name="custom_url_scheme">com.aljorany.app</string>
+</resources>

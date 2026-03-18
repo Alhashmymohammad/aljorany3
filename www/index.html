@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aljorany</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- مكتبة محلية (بدون انترنت) -->
+<script src="xlsx.full.min.js"></script>
+
+</head>
+<body>
+
+<div class="app">
+
+    <h2>📂 تحميل ملف Excel</h2>
+
+    <input type="file" id="fileInput" accept=".xls,.xlsx,.xlsb,.csv">
+
+    <!-- شريط التحميل -->
+    <div class="progress">
+        <div id="bar"></div>
+    </div>
+    <div id="percent">0%</div>
+
+    <input type="text" id="searchInput" placeholder="اكتب الاسم الثلاثي">
+
+    <button onclick="search()">بحث</button>
+
+    <div id="results"></div>
+
+    <textarea id="lastResult" readonly></textarea>
+    <button onclick="copy()">نسخ</button>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
