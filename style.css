@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg, #232526, #414345);
+    color: white;
+    direction: rtl;
+    padding: 10px;
+}
+
+.app {
+    max-width: 500px;
+    margin: auto;
+}
+
+input, button, textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    color: white;
+}
+
+.progress {
+    height: 10px;
+    background: #333;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#bar {
+    height: 100%;
+    width: 0%;
+    background: #00ffcc;
+    border-radius: 10px;
+}
+
+#results {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.result {
+    padding: 8px;
+    border-bottom: 1px solid #555;
+}
